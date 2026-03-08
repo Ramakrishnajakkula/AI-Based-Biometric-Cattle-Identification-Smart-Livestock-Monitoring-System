@@ -1,0 +1,68 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# ===== ML Weights & Datasets =====
+ml/detection/weights/*.pt
+ml/detection/weights/*.onnx
+ml/recognition/weights/*.pth
+ml/recognition/weights/*.onnx
+ml/health/weights/*.pt
+ml/health/weights/*.onnx
+ml/detection/datasets/
+ml/health/datasets/
+!ml/detection/datasets/.gitkeep
+!ml/health/datasets/.gitkeep
+data/raw/
+data/processed/
+data/annotations/
+
+# ===== Node.js =====
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Environment =====
+.env
+*.env.local
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Uploads =====
+backend/uploads/cattle/*
+backend/uploads/health/*
+!backend/uploads/cattle/.gitkeep
+!backend/uploads/health/.gitkeep
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Logs =====
+*.log
+logs/

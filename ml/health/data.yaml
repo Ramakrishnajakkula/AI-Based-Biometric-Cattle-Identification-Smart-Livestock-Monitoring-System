@@ -1,0 +1,15 @@
+# Health Condition Detection Dataset Configuration
+# Author: Aditi
+
+path: ./datasets
+train: images/train
+val: images/val
+
+nc: 5
+
+names:
+  0: wound
+  1: eye_redness
+  2: skin_lesion
+  3: lameness
+  4: healthy

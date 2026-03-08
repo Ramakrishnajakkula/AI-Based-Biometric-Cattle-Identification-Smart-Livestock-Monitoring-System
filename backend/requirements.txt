@@ -1,0 +1,18 @@
+# Flask Backend
+Flask==3.1.0
+flask-cors==5.0.0
+flask-jwt-extended==4.7.1
+
+# Validation & Serialization
+marshmallow==3.23.1
+
+# Image Processing
+Pillow==10.4.0
+
+# Utilities
+python-dotenv==1.0.1
+bcrypt==4.2.0
+
+# For ML integration
+numpy==1.26.4
+requests==2.32.3

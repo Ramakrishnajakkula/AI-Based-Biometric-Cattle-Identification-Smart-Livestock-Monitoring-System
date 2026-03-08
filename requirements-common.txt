@@ -1,0 +1,5 @@
+# Common dependencies shared by all team members
+# Python 3.12
+
+python-dotenv==1.0.1
+numpy==1.26.4

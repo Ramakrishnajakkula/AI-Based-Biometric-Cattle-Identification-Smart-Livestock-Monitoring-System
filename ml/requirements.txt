@@ -1,0 +1,36 @@
+# Core ML
+ultralytics==8.3.40
+torch==2.2.2
+torchvision==0.17.2
+onnx==1.16.0
+onnxruntime==1.18.0
+
+# Computer Vision
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+albumentations==1.4.3
+
+# Face Recognition
+insightface==0.7.3
+
+# Data & Visualization
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.0
+seaborn==0.13.2
+scikit-learn==1.5.0
+
+# Explainability
+grad-cam==1.5.0
+
+# Anomaly (for Aditi)
+scipy==1.13.0
+
+# Notebooks
+jupyter==1.0.0
+ipykernel==6.29.0
+
+# Utilities
+tqdm==4.66.4
+pyyaml==6.0.1
+python-dotenv==1.0.1

@@ -1,0 +1,15 @@
+# MQTT
+paho-mqtt==2.1.0
+
+# Database
+pymongo==4.10.1
+
+# Data
+numpy==1.26.4
+pandas==2.2.2
+
+# Utilities
+python-dotenv==1.0.1
+pyyaml==6.0.1
+schedule==1.2.1
+colorlog==6.8.2

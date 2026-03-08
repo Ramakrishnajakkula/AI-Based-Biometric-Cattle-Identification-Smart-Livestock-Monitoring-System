@@ -1,0 +1,14 @@
+# Cattle Face/Muzzle Detection Dataset Configuration
+# Author: Ramakrishna
+
+# Dataset paths (relative to this file)
+path: ./datasets
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: cattle_face

@@ -1,0 +1,6 @@
+# Jupyter notebooks for experimentation
+# Place notebooks here:
+# 01_data_exploration.ipynb
+# 02_model_comparison.ipynb
+# 03_gradcam_analysis.ipynb
+# 04_embedding_tsne.ipynb

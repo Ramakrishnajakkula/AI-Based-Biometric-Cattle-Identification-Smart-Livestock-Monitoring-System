@@ -1,0 +1,2 @@
+# Trained detection model weights will be saved here
+# Files: best.pt, last.pt, best.onnx

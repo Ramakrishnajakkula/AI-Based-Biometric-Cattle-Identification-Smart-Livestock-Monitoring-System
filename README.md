@@ -18,7 +18,7 @@
 8. [Quick Start](#quick-start)
 9. [API Endpoints](#api-endpoints)
 10. [Demo Credentials](#demo-credentials)
-11. [Screenshots Overview](#screenshots-overview)
+11. [Screenshots](#screenshots)
 
 ---
 
@@ -302,18 +302,54 @@ The demo ships with **5 registered cattle** (Lakshmi, Ganga, Nandi, Kamadhenu, S
 
 ---
 
-## Screenshots Overview
+## Screenshots
 
-| Page | What You'll See |
-|---|---|
-| **Login** | Branded login form with pre-filled demo credentials |
-| **Dashboard** | 4 stat cards + herd health pie chart + recent alerts table |
-| **Animals** | Sortable table of all cattle with health status tags |
-| **Animal Detail** | Cattle info card + live sensor stat cards + temperature & heart rate charts |
-| **Health Alerts** | Filterable alert table (high/medium/low) with one-click resolve |
-| **Insurance Claims** | Claims table + "New Claim" modal + "Verify" action button |
-| **Live Map** | OpenStreetMap with cattle markers near Hyderabad, auto-refreshes every 5s |
-| **Identify Cattle** | Image upload → shows matched cattle name, breed, confidence score |
+### Login Page
+Branded login form with pre-filled demo credentials and gradient background.
+
+![Login Page](screenshorts_ui/Screenshot%202026-02-27%20155836.png)
+
+---
+
+### Dashboard
+Summary stat cards (Total Cattle, Healthy, Active Alerts, Pending Claims), herd health pie chart, and recent alerts table.
+
+![Dashboard](screenshorts_ui/Screenshot%202026-03-08%20143447.png)
+
+---
+
+### Animal List
+Sortable table of all registered cattle showing Tag ID, Name, Breed, and health status tags.
+
+![Animal List](screenshorts_ui/Screenshot%202026-03-08%20143503.png)
+
+---
+
+### Animal Detail
+Individual cattle information card with live sensor statistics (temperature, heart rate, activity) and interactive 24-hour history charts.
+
+![Animal Detail](screenshorts_ui/Screenshot%202026-03-08%20143513.png)
+
+---
+
+### Health Alerts
+Filterable alert table with severity badges (High / Medium / Low) and one-click resolve action.
+
+![Health Alerts](screenshorts_ui/Screenshot%202026-03-08%20143525.png)
+
+---
+
+### Insurance Claims
+Claims management table with status tags (Pending / Under Review / Approved), "New Claim" modal, and "Verify" fraud-check action.
+
+![Insurance Claims](screenshorts_ui/Screenshot%202026-03-08%20143538.png)
+
+---
+
+### Live GPS Map / Identify Cattle
+OpenStreetMap with cattle markers near Hyderabad that auto-refresh, or the biometric identification upload page showing match results.
+
+![Live Map / Identify](screenshorts_ui/Screenshot%202026-03-08%20143620.png)
 
 ---
 

@@ -340,10 +340,17 @@ Claims management table with status tags (Pending / Under Review / Approved), "N
 
 ---
 
-### Live GPS Map / Identify Cattle
-OpenStreetMap with cattle markers near Hyderabad that auto-refresh, or the biometric identification upload page showing match results.
+### Live GPS Map
+OpenStreetMap with cattle markers near Hyderabad that auto-refresh every 5 seconds.
 
-![Live Map / Identify](screenshorts_ui/Screenshot%202026-03-08%20143538.png)
+![Live Map](screenshorts_ui/Screenshot%202026-03-08%20143538.png)
+
+---
+
+### Identify Cattle
+Upload a muzzle/face photograph to identify the cattle using biometric matching — shows matched cattle name, breed, and confidence score.
+
+![Identify Cattle](screenshorts_ui/Screenshot%202026-03-08%20143620.png)
 
 
 

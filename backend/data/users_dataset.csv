@@ -1,0 +1,7 @@
+_id,name,email,role,farm_id,created_at
+u1,Admin Ramesh,admin@smartlivestock.in,admin,,2025-01-01T00:00:00Z
+u2,Rajesh Kumar,rajesh@farm.in,farmer,FARM-01,2025-02-10T08:30:00Z
+u3,Priya Devi,priya@farm.in,farmer,FARM-02,2025-03-15T10:00:00Z
+u4,Suresh Reddy,suresh@farm.in,farmer,FARM-03,2025-04-20T09:00:00Z
+u5,Anita Sharma,anita@farm.in,farmer,FARM-04,2025-05-05T07:45:00Z
+u6,Venkat Rao,venkat@farm.in,farmer,FARM-05,2025-06-12T11:15:00Z

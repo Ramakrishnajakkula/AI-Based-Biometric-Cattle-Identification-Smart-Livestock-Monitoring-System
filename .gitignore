@@ -13,6 +13,7 @@ build/
 venv/
 env/
 .venv/
+.venv_win/
 
 # ===== ML Weights & Datasets =====
 ml/detection/weights/*.pt
@@ -66,3 +67,5 @@ backend/uploads/health/*
 # ===== Logs =====
 *.log
 logs/
+
+BeefCattle_Muzzle_Individualized/

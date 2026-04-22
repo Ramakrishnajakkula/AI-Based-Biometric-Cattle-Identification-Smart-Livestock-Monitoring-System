@@ -1,19 +1,275 @@
-/* Global Styles — Author: Poshith */
+/* ========================================
+   SmartLivestock — Global Design System
+   Author: Poshith
+   ======================================== */
 
-* {
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ── Reset & Base ── */
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #f5f5f5;
-}
-
-/* Leaflet map fix */
-.leaflet-container {
+html, body, #root {
   height: 100%;
-  width: 100%;
-  border-radius: 8px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color: #1a1a2e;
+  background: #f0f2f5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* ── Ant Design Overrides ── */
+.ant-layout-sider {
+  transition: width 0.2s cubic-bezier(0.2, 0, 0, 1) !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background: rgba(82, 196, 26, 0.2) !important;
+  border-right: 3px solid #52c41a;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background: rgba(255,255,255,0.08) !important;
+}
+
+.ant-menu-dark .ant-menu-item {
+  border-radius: 6px;
+  margin: 2px 8px;
+  width: calc(100% - 16px);
+  transition: all 0.2s;
+}
+
+.ant-card {
+  border-radius: 12px !important;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.ant-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10) !important;
+}
+
+.ant-btn-primary {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+}
+
+.ant-btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(82, 196, 26, 0.4) !important;
+}
+
+.ant-statistic-title {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.ant-table-thead > tr > th {
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  background: #fafafa !important;
+  color: #555 !important;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.ant-table-row {
+  transition: background 0.15s;
+}
+
+.ant-table-row:hover > td {
+  background: #f6ffed !important;
+}
+
+/* Sick cattle row highlight */
+.row-sick > td {
+  background: #fff2f0 !important;
+}
+.row-sick:hover > td {
+  background: #ffccc7 !important;
+}
+
+/* ── Login Page ── */
+.login-root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.login-hero {
+  flex: 0 0 42%;
+  background: linear-gradient(145deg, #001529 0%, #003a1c 50%, #006d35 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-hero::before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(82,196,26,0.15) 0%, transparent 70%);
+  top: -100px;
+  right: -100px;
+  border-radius: 50%;
+}
+
+.login-hero::after {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(82,196,26,0.10) 0%, transparent 70%);
+  bottom: -50px;
+  left: -50px;
+  border-radius: 50%;
+}
+
+.login-hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  max-width: 380px;
+}
+
+.login-logo {
+  font-size: 64px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 4px 12px rgba(82,196,26,0.5));
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.login-hero-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.login-hero-subtitle {
+  color: rgba(255,255,255,0.65);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.login-features {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(255,255,255,0.85);
+  font-size: 14px;
+}
+
+.login-feature-icon {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.login-form-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 48px 32px;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 380px;
+}
+
+.demo-cred-btn {
+  flex: 1;
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.demo-cred-btn:hover {
+  background: #d9f7be;
+  border-color: #52c41a;
+  transform: translateY(-1px);
+}
+
+/* Responsive login */
+@media (max-width: 768px) {
+  .login-hero {
+    display: none;
+  }
+  .login-form-panel {
+    padding: 32px 20px;
+  }
+}
+
+/* ── Page transitions ── */
+.ant-layout-content {
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Leaflet fix in Vite ── */
+.leaflet-default-icon-path {
+  background-image: url("https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png");
+}
+
+/* ── Utility classes ── */
+.text-success { color: #52c41a; }
+.text-danger  { color: #f5222d; }
+.text-warning { color: #faad14; }
+.text-muted   { color: #8c8c8c; }
+.fw-600       { font-weight: 600; }
+.fw-700       { font-weight: 700; }

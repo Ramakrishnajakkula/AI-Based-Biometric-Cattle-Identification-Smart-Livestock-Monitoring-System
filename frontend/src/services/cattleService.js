@@ -6,7 +6,7 @@ import api from './api';
 
 export const cattleService = {
   list: async (params) => {
-    const { data } = await api.get('/cattle', { params });
+    const { data } = await api.get('/cattle/', { params });
     return data;
   },
 
@@ -16,7 +16,12 @@ export const cattleService = {
   },
 
   register: async (cattleData) => {
-    const { data } = await api.post('/cattle', cattleData);
+    const { data } = await api.post('/cattle/', cattleData);
+    return data;
+  },
+
+  create: async (cattleData) => {
+    const { data } = await api.post('/cattle/', cattleData);
     return data;
   },
 

@@ -1,0 +1,207 @@
+[
+  {
+    "source_id": "cattle_0900",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.99902
+  },
+  {
+    "source_id": "cattle_1000",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.996399
+  },
+  {
+    "source_id": "cattle_1100",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.977093
+  },
+  {
+    "source_id": "cattle_0800",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.807877
+  },
+  {
+    "source_id": "cattle_1400",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.784592
+  },
+  {
+    "source_id": "cattle_2200",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.749791
+  },
+  {
+    "source_id": "cattle_0600",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.579269
+  },
+  {
+    "source_id": "cattle_0200",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.535815
+  },
+  {
+    "source_id": "cattle_2500",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.505859
+  },
+  {
+    "source_id": "cattle_0400",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.504133
+  },
+  {
+    "source_id": "cattle_0700",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.481526
+  },
+  {
+    "source_id": "cattle_1300",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.47087
+  },
+  {
+    "source_id": "cattle_0300",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.470036
+  },
+  {
+    "source_id": "cattle_0100",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.389462
+  },
+  {
+    "source_id": "cattle_2100",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.359127
+  },
+  {
+    "source_id": "cattle_2000",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.34775
+  },
+  {
+    "source_id": "cattle_1800",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.273948
+  },
+  {
+    "source_id": "cattle_1200",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.235502
+  },
+  {
+    "source_id": "cattle_2320",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.214337
+  },
+  {
+    "source_id": "cattle_0500",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.207893
+  },
+  {
+    "source_id": "cattle_2510",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.200852
+  },
+  {
+    "source_id": "cattle_3200",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.186952
+  },
+  {
+    "source_id": "cattle_2400",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.150698
+  },
+  {
+    "source_id": "cattle_3000",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.133583
+  },
+  {
+    "source_id": "cattle_3300",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.128788
+  },
+  {
+    "source_id": "cattle_1600",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.114455
+  },
+  {
+    "source_id": "cattle_2600",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.089962
+  },
+  {
+    "source_id": "cattle_2740",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.08424
+  },
+  {
+    "source_id": "cattle_3400",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.077842
+  },
+  {
+    "source_id": "cattle_2300",
+    "suggested_tag": "CTL-003",
+    "similarity": 0.052418
+  },
+  {
+    "source_id": "cattle_2710",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.044209
+  },
+  {
+    "source_id": "cattle_1900",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.042159
+  },
+  {
+    "source_id": "cattle_1700",
+    "suggested_tag": "CTL-001",
+    "similarity": 0.034099
+  },
+  {
+    "source_id": "CTL-001",
+    "suggested_tag": "CTL-002",
+    "similarity": 0.006916
+  },
+  {
+    "source_id": "cattle_2930",
+    "suggested_tag": "CTL-003",
+    "similarity": -0.007064
+  },
+  {
+    "source_id": "cattle_1500",
+    "suggested_tag": "CTL-003",
+    "similarity": -0.077114
+  },
+  {
+    "source_id": "cattle_3100",
+    "suggested_tag": "CTL-001",
+    "similarity": -0.083113
+  },
+  {
+    "source_id": "cattle_2700",
+    "suggested_tag": "CTL-001",
+    "similarity": -0.083756
+  },
+  {
+    "source_id": "cattle_2900",
+    "suggested_tag": "CTL-001",
+    "similarity": -0.123405
+  },
+  {
+    "source_id": "cattle_2220",
+    "suggested_tag": "CTL-001",
+    "similarity": -0.132542
+  },
+  {
+    "source_id": "cattle_2800",
+    "suggested_tag": "CTL-001",
+    "similarity": -0.15656
+  }
+]

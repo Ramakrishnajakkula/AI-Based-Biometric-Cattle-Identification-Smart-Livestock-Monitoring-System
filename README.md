@@ -223,6 +223,8 @@ cap/
 
 ## Quick Start
 
+ML recognition setup guide: `ml/recognition/README.md`
+
 ### Prerequisites
 
 - **Python 3.12+**
@@ -244,6 +246,52 @@ python run.py
 ```
 
 The API server starts at **http://localhost:5000**. No database or external service is needed — all data is served from the in-memory store.
+
+Production mode backend:
+
+```bash
+# Set environment first
+# Windows PowerShell
+$env:FLASK_ENV="production"
+$env:JWT_SECRET_KEY="replace-with-strong-secret"
+$env:SECRET_KEY="replace-with-strong-secret"
+$env:CORS_ORIGINS="https://your-frontend-domain.com"
+
+cd backend
+pip install -r requirements.txt
+python run_prod.py
+```
+
+### Optional: Download ML Datasets from Online Sources
+
+The repository keeps large ML datasets out of Git. To pull datasets directly from online ZIP sources (for example Roboflow/Kaggle exports in YOLO format):
+
+1) Edit `scripts/dataset_sources.example.json` and replace the placeholder URLs.
+
+2) Run:
+
+```bash
+python scripts/download_datasets.py --config scripts/dataset_sources.example.json
+```
+
+You can also override with environment variables instead of editing the JSON file:
+
+```bash
+# Windows PowerShell
+$env:DETECTION_DATASET_URL="https://your-detection-dataset.zip"
+$env:HEALTH_DATASET_URL="https://your-health-dataset.zip"
+python scripts/download_datasets.py
+```
+
+The script will place files into:
+- `ml/detection/datasets/images/train`, `ml/detection/datasets/images/val`
+- `ml/detection/datasets/labels/train`, `ml/detection/datasets/labels/val`
+- `ml/health/datasets/images/train`, `ml/health/datasets/images/val`
+- `ml/health/datasets/labels/train`, `ml/health/datasets/labels/val`
+
+See also:
+- `docs/DATASET_LINKS_VERIFIED.md` for checked working links
+- `docs/YOLO_CONVERSION_CHECKLIST.md` for conversion/annotation steps
 
 ### 3. Start the Frontend
 

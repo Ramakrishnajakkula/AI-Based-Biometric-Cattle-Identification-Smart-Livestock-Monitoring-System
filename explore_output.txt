@@ -1,0 +1,44 @@
+﻿=== DATASET OVERVIEW ===
+Total cattle: 300
+Unique farms: 5
+Unique owners: 300
+
+=== FARMS ===
+  FARM-01: Green Valley Farm (Madhavi Naik) - 57 cattle
+  FARM-02: Lakshmi Dairy (Pooja Yadav) - 65 cattle
+  FARM-03: Sunrise Agro Farm (Anitha Patel) - 63 cattle
+  FARM-04: Annapurna Cattle Shed (Arjun Patel) - 52 cattle
+  FARM-05: Sri Sai Livestock (Arjun Yadav) - 63 cattle
+
+=== BREEDS ===
+  Gir: 41
+  Holstein Friesian: 44
+  Jersey: 49
+  Ongole: 47
+  Red Sindhi: 39
+  Sahiwal: 39
+  Tharparkar: 41
+
+=== HEALTH STATUS ===
+  critical: 38
+  healthy: 131
+  watch: 131
+
+=== SAMPLE ROWS ===
+  CTL-00001: Cattle-00001 | Jersey | 2yr | 192kg | healthy | FARM-03
+    image: ml/detection/datasets/images/train/sample_train_0.jpg
+  CTL-00002: Cattle-00002 | Ongole | 4yr | 258kg | watch | FARM-03
+    image: ml/detection/datasets/images/train/sample_train_1.jpg
+  CTL-00003: Cattle-00003 | Tharparkar | 11yr | 478kg | watch | FARM-05
+    image: ml/detection/datasets/images/train/sample_train_2.jpg
+  CTL-00004: Cattle-00004 | Gir | 10yr | 402kg | healthy | FARM-03
+    image: ml/detection/datasets/images/train/sample_train_3.jpg
+  CTL-00005: Cattle-00005 | Tharparkar | 8yr | 183kg | critical | FARM-03
+    image: ml/detection/datasets/images/train/sample_train_4.jpg
+
+=== IMAGE PATHS (unique patterns) ===
+  ml/detection/datasets/images/train/sample_train_0.jpg
+  ml/detection/datasets/images/train/sample_train_1.jpg
+  ml/detection/datasets/images/train/sample_train_2.jpg
+  ml/detection/datasets/images/train/sample_train_3.jpg
+  ml/detection/datasets/images/train/sample_train_4.jpg

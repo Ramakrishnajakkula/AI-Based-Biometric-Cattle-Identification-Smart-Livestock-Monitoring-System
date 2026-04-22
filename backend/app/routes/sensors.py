@@ -6,7 +6,7 @@ Author: Akash
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required
 
-from ..data_store import get_latest_sensors, _generate_sensor_history, CATTLE_GPS
+from ..data_store import get_latest_sensors, generate_sensor_history, get_gps_positions
 
 sensors_bp = Blueprint("sensors", __name__)
 
@@ -26,7 +26,7 @@ def get_sensor_history(cattle_id):
     sensor_type = request.args.get("type", "temperature")
     hours = int(request.args.get("hours", 24))
 
-    readings = _generate_sensor_history(cattle_id, sensor_type, hours)
+    readings = generate_sensor_history(cattle_id, sensor_type, hours)
     return jsonify({"cattle_id": cattle_id, "sensor_type": sensor_type, "readings": readings}), 200
 
 
@@ -34,12 +34,13 @@ def get_sensor_history(cattle_id):
 @jwt_required()
 def get_all_gps():
     """Get GPS positions for all cattle."""
-    import copy, random
-    positions = []
-    for cid, pos in CATTLE_GPS.items():
-        p = copy.deepcopy(pos)
+    try:
+        import copy, random
+        positions = get_gps_positions()
         # tiny random drift to simulate movement
-        p["lat"] += random.uniform(-0.001, 0.001)
-        p["lng"] += random.uniform(-0.001, 0.001)
-        positions.append(p)
-    return jsonify({"positions": positions}), 200
+        for p in positions:
+            p["lat"] += random.uniform(-0.001, 0.001)
+            p["lng"] += random.uniform(-0.001, 0.001)
+        return jsonify({"positions": positions}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500

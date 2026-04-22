@@ -1,0 +1,8 @@
+{
+  "detection": {
+    "url": "https://zenodo.org/api/records/6324361/files/BeefCattle_Muzzle_database.zip/content"
+  },
+  "health": {
+    "url": "https://github.com/UARK-AICV/CattleFace-RGBT-benchmark/archive/refs/heads/main.zip"
+  }
+}

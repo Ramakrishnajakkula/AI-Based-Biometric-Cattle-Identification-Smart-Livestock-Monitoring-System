@@ -1,0 +1,6 @@
+_id,cattle_id,cattle_name,owner_id,farm_id,claim_type,amount,description,status,fraud_score,created_at
+claim-1,CTL-005,Surabhi,u2,FARM-01,illness,25000,"Cattle diagnosed with foot-and-mouth disease, requires treatment and quarantine",pending,,2026-03-20T10:30:00Z
+claim-2,CTL-028,Champa,u3,FARM-02,death,45000,"Cattle died due to sudden cardiac failure, vet confirmed natural cause",pending,,2026-03-22T14:00:00Z
+claim-3,CTL-050,Basanti,u4,FARM-03,accident,18000,"Cattle injured by falling debris during storm, fractured leg",under_review,35,2026-03-15T09:00:00Z
+claim-4,CTL-065,Phool,u5,FARM-04,theft,55000,"Two cattle reported stolen from night paddock, FIR filed",pending,,2026-03-25T06:00:00Z
+claim-5,CTL-088,Geeta,u6,FARM-05,illness,12000,"Cattle suffering from brucellosis, ongoing veterinary treatment",approved,10,2026-03-10T11:30:00Z

@@ -1,0 +1,6 @@
+path: C:\Users\raman\OneDrive\Documents\cap\ml\detection\datasets
+train: images/train
+val: images/val
+nc: 1
+names:
+  0: cattle_face

@@ -55,9 +55,10 @@ def main():
     
     print("\n=== Setup complete! ===")
     print("Next steps:")
-    print("  1. cd frontend && npm install")
-    print("  2. docker-compose up -d")
-    print("  3. Copy .env.example → .env and fill in values")
+    print("  1. python scripts/download_datasets.py --config scripts/dataset_sources.example.json")
+    print("  2. cd frontend && npm install")
+    print("  3. docker-compose up -d")
+    print("  4. Copy .env.example → .env and fill in values")
 
 
 if __name__ == "__main__":

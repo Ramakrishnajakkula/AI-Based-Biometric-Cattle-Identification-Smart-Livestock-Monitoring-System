@@ -1,0 +1,101 @@
+tag_id,name,breed,age_years,weight_kg,health_status,owner_id,farm_id,milk_yield_liters,last_vaccination,gps_lat,gps_lng,image_url,created_at
+CTL-001,Lakshmi,Gir,11,257,healthy,u2,FARM-01,0,2026-01-16,17.380501,78.481164,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2024-06-05T10:11:31.952207+00:00
+CTL-002,Ganga,Sahiwal,7,216,healthy,u2,FARM-01,6.0,2025-07-30,17.379373,78.486807,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2025-06-19T10:11:31.952207+00:00
+CTL-003,Nandi,Red Sindhi,8,501,healthy,u2,FARM-01,9.3,2025-10-10,17.392386,78.491876,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2025-08-24T10:11:31.952207+00:00
+CTL-004,Kamadhenu,Ongole,4,372,healthy,u2,FARM-01,7.0,2026-02-07,17.382599,78.48388,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2024-10-17T10:11:31.952207+00:00
+CTL-005,Surabhi,Tharparkar,9,263,sick,u2,FARM-01,0,2025-08-28,17.382571,78.487741,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2024-06-18T10:11:31.952207+00:00
+CTL-006,Gauri,Kankrej,4,235,healthy,u2,FARM-01,6.5,2026-01-09,17.379558,78.482488,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2025-01-06T10:11:31.952207+00:00
+CTL-007,Govinda,Hallikar,5,432,healthy,u2,FARM-01,7.0,2026-01-24,17.382297,78.484104,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2024-05-17T10:11:31.952207+00:00
+CTL-008,Meera,Deoni,11,287,healthy,u2,FARM-01,16.9,2025-11-09,17.379896,78.485945,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2025-03-04T10:11:31.952207+00:00
+CTL-009,Shakti,Rathi,1,317,healthy,u2,FARM-01,16.7,2025-09-21,17.391101,78.484723,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2025-06-27T10:11:31.952207+00:00
+CTL-010,Parvati,Hariana,11,455,healthy,u2,FARM-01,6.7,2025-10-18,17.393291,78.485877,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2024-06-11T10:11:31.952207+00:00
+CTL-011,Radha,Gir,7,498,healthy,u2,FARM-01,4.4,2026-02-05,17.379386,78.496651,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2025-10-10T10:11:31.952207+00:00
+CTL-012,Krishna,Sahiwal,3,521,healthy,u2,FARM-01,11.9,2025-07-05,17.38861,78.488628,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2024-08-07T10:11:31.952207+00:00
+CTL-013,Durga,Red Sindhi,5,483,sick,u2,FARM-01,11.1,2025-10-16,17.37523,78.491114,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2025-02-16T10:11:31.952207+00:00
+CTL-014,Rani,Ongole,2,350,healthy,u2,FARM-01,0,2025-10-18,17.384074,78.495776,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2024-09-05T10:11:31.952207+00:00
+CTL-015,Bhumi,Tharparkar,3,459,sick,u2,FARM-01,12.1,2025-12-13,17.39241,78.482669,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2025-01-13T10:11:31.952207+00:00
+CTL-016,Sita,Kankrej,3,476,sick,u2,FARM-01,10.3,2026-01-03,17.393449,78.49507,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2025-01-24T10:11:31.952207+00:00
+CTL-017,Savitri,Hallikar,5,322,healthy,u2,FARM-01,10.3,2026-01-25,17.39256,78.495639,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2024-08-03T10:11:31.952207+00:00
+CTL-018,Janaki,Deoni,3,265,healthy,u2,FARM-01,12.1,2025-11-13,17.393937,78.480003,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2024-07-27T10:11:31.952207+00:00
+CTL-019,Rohini,Rathi,12,302,healthy,u2,FARM-01,16.5,2025-07-13,17.38298,78.490134,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2025-09-29T10:11:31.952207+00:00
+CTL-020,Chandra,Hariana,4,315,healthy,u2,FARM-01,3.1,2026-01-30,17.375421,78.487778,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2025-06-10T10:11:31.952207+00:00
+CTL-021,Tulsi,Tharparkar,2,216,sick,u3,FARM-02,6.2,2025-12-24,17.969817,79.58886,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2024-06-25T10:11:31.952207+00:00
+CTL-022,Annapurna,Kankrej,10,442,healthy,u3,FARM-02,12.9,2025-09-01,17.977859,79.592241,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2024-11-23T10:11:31.952207+00:00
+CTL-023,Devaki,Hallikar,7,439,sick,u3,FARM-02,3.9,2025-09-09,17.969483,79.597169,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2025-10-11T10:11:31.952207+00:00
+CTL-024,Yamuna,Deoni,4,298,healthy,u3,FARM-02,6.7,2026-01-22,17.977372,79.592538,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2024-11-03T10:11:31.952207+00:00
+CTL-025,Kaveri,Rathi,9,250,healthy,u3,FARM-02,0,2025-10-31,17.988386,79.600821,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2025-08-13T10:11:31.952207+00:00
+CTL-026,Gopi,Hariana,7,448,healthy,u3,FARM-02,3.0,2025-08-14,17.985693,79.602149,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2025-05-04T10:11:31.952207+00:00
+CTL-027,Madhavi,Gir,8,346,healthy,u3,FARM-02,13.8,2025-12-12,17.987546,79.604008,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2025-07-20T10:11:31.952207+00:00
+CTL-028,Narmada,Sahiwal,5,311,sick,u3,FARM-02,0,2026-01-31,17.979984,79.594944,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2025-12-10T10:11:31.952207+00:00
+CTL-029,Champa,Red Sindhi,10,444,healthy,u3,FARM-02,0,2026-01-19,17.985454,79.587249,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2025-07-24T10:11:31.953208+00:00
+CTL-030,Sundari,Ongole,2,504,healthy,u3,FARM-02,0,2025-10-26,17.985636,79.592176,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2024-06-17T10:11:31.953208+00:00
+CTL-031,Kamala,Tharparkar,10,220,healthy,u3,FARM-02,17.0,2025-11-17,17.976784,79.595773,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2025-03-15T10:11:31.953208+00:00
+CTL-032,Padma,Kankrej,4,335,healthy,u3,FARM-02,14.3,2026-01-23,17.981834,79.5901,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2026-01-21T10:11:31.953208+00:00
+CTL-033,Rekha,Hallikar,8,518,sick,u3,FARM-02,7.0,2025-09-04,17.988322,79.585565,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2025-11-21T10:11:31.953208+00:00
+CTL-034,Vidya,Deoni,4,389,healthy,u3,FARM-02,17.8,2025-06-04,17.977164,79.594964,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2026-01-22T10:11:31.953208+00:00
+CTL-035,Shanti,Rathi,11,483,healthy,u3,FARM-02,4.7,2026-01-06,17.981668,79.602879,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2024-07-13T10:11:31.953208+00:00
+CTL-036,Mangala,Hariana,3,339,healthy,u3,FARM-02,15.8,2025-06-16,17.972613,79.590958,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2024-09-17T10:11:31.953208+00:00
+CTL-037,Rukmini,Gir,5,226,healthy,u3,FARM-02,14.6,2025-10-18,17.976872,79.589634,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2025-08-18T10:11:31.953208+00:00
+CTL-038,Vaishali,Sahiwal,12,426,healthy,u3,FARM-02,16.2,2025-12-15,17.976954,79.584293,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2024-07-21T10:11:31.953208+00:00
+CTL-039,Tara,Red Sindhi,1,389,healthy,u3,FARM-02,16.5,2026-02-09,17.971362,79.586649,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2025-01-29T10:11:31.953208+00:00
+CTL-040,Moti,Ongole,4,549,healthy,u3,FARM-02,0,2025-08-05,17.970456,79.599702,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2024-05-05T10:11:31.953208+00:00
+CTL-041,Bijli,Rathi,12,279,sick,u4,FARM-03,0,2025-12-01,18.433335,79.12205,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2024-12-04T10:11:31.953208+00:00
+CTL-042,Chameli,Hariana,1,291,healthy,u4,FARM-03,0,2025-10-25,18.435244,79.137416,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2025-05-02T10:11:31.953208+00:00
+CTL-043,Dhanush,Gir,3,255,healthy,u4,FARM-03,16.8,2025-09-03,18.429374,79.128214,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2025-03-24T10:11:31.953208+00:00
+CTL-044,Kanha,Sahiwal,4,314,healthy,u4,FARM-03,0,2025-10-10,18.432463,79.125365,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2025-02-05T10:11:31.953208+00:00
+CTL-045,Gopal,Red Sindhi,11,460,healthy,u4,FARM-03,0,2026-01-01,18.448223,79.129524,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2025-05-08T10:11:31.953208+00:00
+CTL-046,Heera,Ongole,3,497,sick,u4,FARM-03,13.9,2025-09-22,18.433909,79.120968,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2024-11-10T10:11:31.953208+00:00
+CTL-047,Sapna,Tharparkar,10,461,healthy,u4,FARM-03,9.5,2025-06-08,18.44659,79.122602,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2024-07-28T10:11:31.953208+00:00
+CTL-048,Jwala,Kankrej,11,543,healthy,u4,FARM-03,0,2025-09-22,18.437226,79.137777,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2025-09-25T10:11:31.953208+00:00
+CTL-049,Basanti,Hallikar,12,353,healthy,u4,FARM-03,11.3,2025-11-23,18.441938,79.125324,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2024-11-26T10:11:31.953208+00:00
+CTL-050,Gulabi,Deoni,11,394,healthy,u4,FARM-03,11.2,2026-03-01,18.446656,79.13111,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2025-03-25T10:11:31.953208+00:00
+CTL-051,Prabha,Rathi,5,307,healthy,u4,FARM-03,9.6,2025-11-12,18.4402,79.131894,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2024-08-25T10:11:31.953208+00:00
+CTL-052,Kiran,Hariana,8,286,healthy,u4,FARM-03,4.4,2025-11-01,18.434276,79.132077,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2025-03-19T10:11:31.953208+00:00
+CTL-053,Pushpa,Gir,4,301,healthy,u4,FARM-03,14.5,2025-07-11,18.429524,79.138479,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2024-12-02T10:11:31.953208+00:00
+CTL-054,Lata,Sahiwal,11,494,healthy,u4,FARM-03,12.8,2026-02-27,18.442527,79.128688,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2025-10-13T10:11:31.953208+00:00
+CTL-055,Genda,Red Sindhi,7,312,healthy,u4,FARM-03,6.7,2025-12-29,18.447759,79.129159,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2024-10-20T10:11:31.953208+00:00
+CTL-056,Mala,Ongole,3,437,healthy,u4,FARM-03,0,2025-07-18,18.448358,79.130709,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2024-05-13T10:11:31.953208+00:00
+CTL-057,Ratan,Tharparkar,12,458,healthy,u4,FARM-03,15.9,2025-07-14,18.446737,79.127718,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2025-05-10T10:11:31.953208+00:00
+CTL-058,Chhaya,Kankrej,4,526,healthy,u4,FARM-03,9.6,2025-10-06,18.444153,79.128492,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2025-06-04T10:11:31.953208+00:00
+CTL-059,Divya,Hallikar,5,371,healthy,u4,FARM-03,13.4,2025-11-12,18.439403,79.121567,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2025-11-26T10:11:31.953208+00:00
+CTL-060,Amrit,Deoni,7,408,healthy,u4,FARM-03,0,2025-08-14,18.437918,79.120045,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2024-06-11T10:11:31.953208+00:00
+CTL-061,Phool,Red Sindhi,12,210,sick,u5,FARM-04,8.3,2025-08-14,18.677812,78.091608,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2024-11-27T10:11:31.953208+00:00
+CTL-062,Mukta,Ongole,9,479,healthy,u5,FARM-04,10.3,2025-08-14,18.680456,78.093765,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2025-02-20T10:11:31.953208+00:00
+CTL-063,Neela,Tharparkar,11,547,healthy,u5,FARM-04,0,2026-02-16,18.676984,78.10081,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2024-12-23T10:11:31.953208+00:00
+CTL-064,Dhenu,Kankrej,10,488,healthy,u5,FARM-04,0,2025-11-28,18.664179,78.092572,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2025-12-10T10:11:31.953208+00:00
+CTL-065,Kapila,Hallikar,5,394,healthy,u5,FARM-04,0,2025-10-10,18.671594,78.09075,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2024-11-25T10:11:31.953208+00:00
+CTL-066,Subhadra,Deoni,5,241,healthy,u5,FARM-04,0,2025-11-07,18.67748,78.085042,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2025-11-21T10:11:31.953208+00:00
+CTL-067,Urmila,Rathi,11,220,healthy,u5,FARM-04,5.3,2025-12-27,18.681492,78.087987,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2024-10-03T10:11:31.953208+00:00
+CTL-068,Draupadi,Hariana,11,258,healthy,u5,FARM-04,0,2025-12-06,18.666859,78.097989,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2024-05-20T10:11:31.953208+00:00
+CTL-069,Ahalya,Gir,10,258,healthy,u5,FARM-04,16.9,2025-08-21,18.665775,78.090221,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2024-12-20T10:11:31.953208+00:00
+CTL-070,Mandodari,Sahiwal,12,301,healthy,u5,FARM-04,14.6,2025-12-30,18.676312,78.096545,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2024-06-30T10:11:31.953208+00:00
+CTL-071,Sarala,Red Sindhi,1,377,healthy,u5,FARM-04,3.2,2025-07-29,18.67573,78.085379,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2024-09-16T10:11:31.953208+00:00
+CTL-072,Bhagya,Ongole,2,421,sick,u5,FARM-04,0,2025-07-22,18.675212,78.100574,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2025-08-03T10:11:31.953208+00:00
+CTL-073,Mohini,Tharparkar,12,467,sick,u5,FARM-04,10.3,2025-07-21,18.667902,78.100164,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2024-06-03T10:11:31.953208+00:00
+CTL-074,Usha,Kankrej,5,365,sick,u5,FARM-04,0,2025-10-28,18.679115,78.085733,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2024-10-12T10:11:31.953208+00:00
+CTL-075,Sandhya,Hallikar,10,512,healthy,u5,FARM-04,10.3,2025-09-01,18.669228,78.093886,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2025-05-11T10:11:31.953208+00:00
+CTL-076,Priti,Deoni,6,343,sick,u5,FARM-04,17.2,2026-01-17,18.676524,78.089525,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2025-05-28T10:11:31.953208+00:00
+CTL-077,Jyoti,Rathi,12,408,healthy,u5,FARM-04,10.4,2026-02-21,18.677663,78.097812,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2025-10-27T10:11:31.953208+00:00
+CTL-078,Nisha,Hariana,5,313,healthy,u5,FARM-04,11.3,2025-09-06,18.667366,78.097279,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2024-11-21T10:11:31.953208+00:00
+CTL-079,Chitra,Gir,12,481,healthy,u5,FARM-04,4.8,2025-11-23,18.676557,78.089418,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2025-03-13T10:11:31.953208+00:00
+CTL-080,Kalpana,Sahiwal,2,474,sick,u5,FARM-04,0,2025-10-11,18.676303,78.087831,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2024-06-06T10:11:31.953208+00:00
+CTL-081,Swarna,Hallikar,9,505,healthy,u6,FARM-05,5.7,2026-02-22,17.050311,79.260982,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2024-08-02T10:11:31.953208+00:00
+CTL-082,Rajni,Deoni,3,340,healthy,u6,FARM-05,0,2025-06-23,17.049391,79.262943,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2025-10-17T10:11:31.953208+00:00
+CTL-083,Komal,Rathi,1,493,healthy,u6,FARM-05,0,2025-10-23,17.057874,79.263914,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2024-09-28T10:11:31.953208+00:00
+CTL-084,Deepa,Hariana,2,233,healthy,u6,FARM-05,5.2,2025-09-27,17.049782,79.269689,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2025-11-04T10:11:31.953208+00:00
+CTL-085,Asha,Gir,4,260,healthy,u6,FARM-05,14.6,2025-08-19,17.056623,79.269023,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2024-10-26T10:11:31.953208+00:00
+CTL-086,Manju,Sahiwal,8,352,sick,u6,FARM-05,12.1,2026-01-10,17.068101,79.263208,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2025-07-02T10:11:31.953208+00:00
+CTL-087,Vani,Red Sindhi,11,308,healthy,u6,FARM-05,5.3,2025-08-04,17.049924,79.261897,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2024-10-26T10:11:31.953208+00:00
+CTL-088,Indu,Ongole,12,504,healthy,u6,FARM-05,15.9,2026-01-24,17.048953,79.262862,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2025-06-05T10:11:31.953208+00:00
+CTL-089,Geeta,Tharparkar,5,520,healthy,u6,FARM-05,6.4,2025-12-15,17.064378,79.261056,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2025-05-03T10:11:31.953208+00:00
+CTL-090,Leela,Kankrej,3,236,healthy,u6,FARM-05,0,2025-10-05,17.064153,79.269001,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2024-11-07T10:11:31.953208+00:00
+CTL-091,Nimmi,Hallikar,2,439,healthy,u6,FARM-05,10.4,2026-01-19,17.062295,79.275954,https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200&h=200&fit=crop,2024-05-28T10:11:31.953208+00:00
+CTL-092,Bindu,Deoni,1,421,healthy,u6,FARM-05,13.1,2026-02-19,17.060374,79.257617,https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=200&h=200&fit=crop,2025-04-30T10:11:31.953208+00:00
+CTL-093,Saroj,Rathi,10,220,healthy,u6,FARM-05,7.2,2025-07-21,17.051804,79.267479,https://images.unsplash.com/photo-1568572933382-74d440642117?w=200&h=200&fit=crop,2024-09-14T10:11:31.953208+00:00
+CTL-094,Malti,Hariana,2,440,healthy,u6,FARM-05,0,2025-09-14,17.054966,79.270503,https://images.unsplash.com/photo-1584714268709-c3dd9c92b1a4?w=200&h=200&fit=crop,2024-12-05T10:11:31.953208+00:00
+CTL-095,Damini,Gir,12,453,healthy,u6,FARM-05,9.8,2025-09-21,17.067204,79.273371,https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=200&h=200&fit=crop,2025-05-17T10:11:31.953208+00:00
+CTL-096,Guddi,Sahiwal,6,259,sick,u6,FARM-05,0,2025-07-08,17.056384,79.267392,https://images.unsplash.com/photo-1546445317-29f4545e9d53?w=200&h=200&fit=crop,2024-12-03T10:11:31.953208+00:00
+CTL-097,Munni,Red Sindhi,1,296,healthy,u6,FARM-05,3.8,2025-10-16,17.060753,79.26707,https://images.unsplash.com/photo-1587299142189-e14e9047839a?w=200&h=200&fit=crop,2024-07-17T10:11:31.953208+00:00
+CTL-098,Bhola,Ongole,3,347,healthy,u6,FARM-05,0,2025-10-30,17.062265,79.259529,https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?w=200&h=200&fit=crop,2025-08-21T10:11:31.953208+00:00
+CTL-099,Shankar,Tharparkar,5,482,healthy,u6,FARM-05,0,2026-01-02,17.05646,79.261594,https://images.unsplash.com/photo-1527153907836-6c12e3d0e1f0?w=200&h=200&fit=crop,2024-10-15T10:11:31.953208+00:00
+CTL-100,Balram,Kankrej,2,531,healthy,u6,FARM-05,7.1,2025-06-27,17.058268,79.271432,https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=200&h=200&fit=crop,2024-10-04T10:11:31.953208+00:00

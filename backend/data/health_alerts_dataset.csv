@@ -1,0 +1,19 @@
+_id,cattle_id,cattle_name,farm_id,owner_id,type,severity,message,status,created_at
+alert-1,CTL-005,Surabhi,FARM-01,u2,high_fever,high,Temperature reading above 40°C detected — Surabhi (CTL-005),resolved,2026-03-30T02:11:31.953208+00:00
+alert-2,CTL-013,Durga,FARM-01,u2,irregular_heartbeat,medium,Heart rate irregularity detected — 95 bpm sustained — Durga (CTL-013),active,2026-03-28T23:11:31.953208+00:00
+alert-3,CTL-015,Bhumi,FARM-01,u2,low_activity,low,Activity level below normal for 12+ hours — Bhumi (CTL-015),active,2026-03-28T11:11:31.953208+00:00
+alert-4,CTL-016,Sita,FARM-01,u2,respiratory_distress,high,Rapid breathing pattern detected — Sita (CTL-016),resolved,2026-03-30T15:11:31.953208+00:00
+alert-5,CTL-021,Tulsi,FARM-02,u3,lameness_detected,medium,Abnormal gait detected via activity sensor — Tulsi (CTL-021),active,2026-03-29T08:11:31.953208+00:00
+alert-6,CTL-023,Devaki,FARM-02,u3,dehydration_risk,medium,Water intake below threshold for 8 hours — Devaki (CTL-023),active,2026-03-30T09:11:31.953208+00:00
+alert-7,CTL-028,Narmada,FARM-02,u3,mastitis_indicator,high,Milk yield dropped 40% — possible mastitis — Narmada (CTL-028),resolved,2026-03-28T16:11:31.953208+00:00
+alert-8,CTL-033,Rekha,FARM-02,u3,weight_loss,low,Weight decreased by 5% over 2 weeks — Rekha (CTL-033),active,2026-03-30T16:11:31.953208+00:00
+alert-9,CTL-041,Bijli,FARM-03,u4,high_fever,high,Temperature reading above 40°C detected — Bijli (CTL-041),active,2026-03-31T01:11:31.953208+00:00
+alert-10,CTL-046,Heera,FARM-03,u4,irregular_heartbeat,medium,Heart rate irregularity detected — 95 bpm sustained — Heera (CTL-046),resolved,2026-03-29T22:11:31.953208+00:00
+alert-11,CTL-061,Phool,FARM-04,u5,low_activity,low,Activity level below normal for 12+ hours — Phool (CTL-061),active,2026-03-29T04:11:31.953208+00:00
+alert-12,CTL-072,Bhagya,FARM-04,u5,respiratory_distress,high,Rapid breathing pattern detected — Bhagya (CTL-072),active,2026-03-29T14:11:31.953208+00:00
+alert-13,CTL-073,Mohini,FARM-04,u5,lameness_detected,medium,Abnormal gait detected via activity sensor — Mohini (CTL-073),resolved,2026-03-28T17:11:31.953208+00:00
+alert-14,CTL-074,Usha,FARM-04,u5,dehydration_risk,medium,Water intake below threshold for 8 hours — Usha (CTL-074),active,2026-03-29T23:11:31.953208+00:00
+alert-15,CTL-076,Priti,FARM-04,u5,mastitis_indicator,high,Milk yield dropped 40% — possible mastitis — Priti (CTL-076),active,2026-03-31T09:11:31.953208+00:00
+alert-16,CTL-080,Kalpana,FARM-04,u5,weight_loss,low,Weight decreased by 5% over 2 weeks — Kalpana (CTL-080),resolved,2026-03-29T21:11:31.953208+00:00
+alert-17,CTL-086,Manju,FARM-05,u6,high_fever,high,Temperature reading above 40°C detected — Manju (CTL-086),active,2026-03-29T19:11:31.953208+00:00
+alert-18,CTL-096,Guddi,FARM-05,u6,irregular_heartbeat,medium,Heart rate irregularity detected — 95 bpm sustained — Guddi (CTL-096),active,2026-03-28T19:11:31.953208+00:00

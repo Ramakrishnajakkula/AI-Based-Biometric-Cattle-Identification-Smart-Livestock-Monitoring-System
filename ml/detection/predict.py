@@ -11,7 +11,10 @@ from pathlib import Path
 
 def load_model(weights_path: str = "weights/best.pt") -> YOLO:
     """Load trained YOLOv8 detection model."""
-    model = YOLO(weights_path)
+    path = Path(weights_path)
+    if not path.is_absolute():
+        path = Path(__file__).resolve().parent / path
+    model = YOLO(str(path))
     return model
 
 
